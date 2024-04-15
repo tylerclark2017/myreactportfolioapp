@@ -1,0 +1,131 @@
+/* Primary Color */
+:root {
+    --primary-color: #4EA2D0;
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav ul li button:focus {
+    outline: none;
+  }
+  
+  nav ul li button.active {
+    text-decoration: underline;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    color: var(--primary-color);
+    margin-top: 40px;
+  }
+  
+  /* Project */
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project h3 {
+    color: var(--primary-color);
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  .project .links {
+    margin-top: 10px;
+  }
+  
+  .project .links a {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+  }
+  
+  .project .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Form */
+  section form {
+    margin-top: 40px;
+  }
+  
+  section form label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+  }
+  
+  section form input[type="text"],
+  section form input[type="email"],
+  section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  section form textarea {
+    resize: vertical;
+  }
+  
+  section form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  section form button:hover {
+    background-color: #357EA8;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .social-links a:hover {
+    color: #fff;
+  }
