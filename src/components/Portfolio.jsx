@@ -5,40 +5,40 @@ const Portfolio = () => {
     // Sample data for projects
     const projects = [
         {
-            title: "Project 1",
-            imageUrl: "path_to_image_1",
-            deployedUrl: "url_to_deployed_project_1",
-            githubUrl: "url_to_github_repo_1"
+            title: "JavaScript Random Password Generator",
+            imageUrl: "https://powerbox-na-file.trend.org/SFDC/DownloadFile_iv.php?jsonInfo=%7B%22Query%22%3A%2200I70Ai2nyFDAwS%2BP25uK6Ghsg4UT0HsOfPQdoUakoF2j95gijWh8u%2B%2Buufi3p2Cmn8DJpIBOFSDMYa5tPQEVPgioCGqdwUkNMADX9XB8j6loImcNm%2BFtr4V5A1oBmgFkX%2FRc67xw5VO9xSD%2Bn8xXbWUw4rGdz3Nx4NuxrIYzFyMQKyYxW%2FXmbc0NuhyxDEB6Zg7%2Fk4sEyxzc6Dvs5VU3DV6n2ele4n3JxDASELK2lnDr8iAO5oBXMN7aJ5s0V49%22%2C%22iv%22%3A%2298f757e1c6e823bde8298e60ff2f1067%22%7D",
+            deployedUrl: "https://tylerclark2017.github.io/random-password-generator/",
+            githubUrl: "https://github.com/tylerclark2017/random-password-generator"
         },
         {
-            title: "Project 2",
-            imageUrl: "path_to_image_2",
-            deployedUrl: "url_to_deployed_project_2",
-            githubUrl: "url_to_github_repo_2"
+            title: "Weather Dashboard",
+            imageUrl: "https://miro.medium.com/v2/resize:fit:6508/1*vjwOGJmWO1qawT0lq-y3_A.png",
+            deployedUrl: "https://tylerclark2017.github.io/weather-dashboard/",
+            githubUrl: "https://github.com/tylerclark2017/weather-dashboard"
         },
         {
-            title: "Project 3",
-            imageUrl: "path_to_image_3",
-            deployedUrl: "url_to_deployed_project_3",
-            githubUrl: "url_to_github_repo_3"
+            title: "README Generator",
+            imageUrl: "https://devblogs.microsoft.com/nuget/wp-content/uploads/sites/49/2023/02/MySqlConnector.png",
+            deployedUrl: "https://drive.google.com/file/d/1a5KtP9qbQnHLNDNzloFOx-e8I1Tst82I/view",
+            githubUrl: "https://github.com/tylerclark2017/readmegenerator"
         },
         {
-            title: "Project 4",
-            imageUrl: "path_to_image_4",
-            deployedUrl: "url_to_deployed_project_4",
-            githubUrl: "url_to_github_repo_4"
+            title: "CRUDit Group Project",
+            imageUrl: "https://github.com/yaserhdev/crudit/blob/main/public/images/crudit-screenshot.png?raw=true",
+            deployedUrl: "https://infinite-brushlands-89514-07257eec72fc.herokuapp.com/",
+            githubUrl: "https://github.com/yaserhdev/crudit"
         },
         {
-            title: "Project 5",
-            imageUrl: "path_to_image_5",
-            deployedUrl: "url_to_deployed_project_5",
-            githubUrl: "url_to_github_repo_5"
+            title: "API for a Social Network",
+            imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*7yAihbfGrMCzjUzIF2UitA.jpeg",
+            deployedUrl: "https://www.loom.com/share/f880c844e3ca4dc38ba791cdbeb11b9b?sid=4c71d2fe-2e53-456a-9de3-06b11444825b",
+            githubUrl: "https://github.com/tylerclark2017/socialnetworkapi"
         },
         {
-            title: "Project 6",
-            imageUrl: "path_to_image_6",
-            deployedUrl: "url_to_deployed_project_6",
-            githubUrl: "url_to_github_repo_6"
+            title: "E-Commerce Back End",
+            imageUrl: "https://www.interviewbit.com/blog/wp-content/uploads/2021/06/Servers-1024x640.jpg",
+            deployedUrl: "https://www.loom.com/share/0959e512a6ea403a8083e6854d160711",
+            githubUrl: "https://github.com/tylerclark2017/ecommercebackend"
         }
     ];
 
