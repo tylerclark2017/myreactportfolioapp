@@ -110,6 +110,57 @@
   section form button:hover {
     background-color: #357EA8;
   }
+
+  /* Contact section */
+#contact {
+  text-align: center; /* Center align the content */
+}
+
+/* Form */
+#contact form {
+  margin-bottom: 20px; /* Add some space below the form */
+}
+
+#contact form div {
+  margin-bottom: 10px; /* Add space between form fields */
+}
+
+#contact form label {
+  display: block; /* Display labels as block elements for better spacing */
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%; /* Make form fields fill the container width */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  background-color: #4EA2D0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Social links */
+.social-links {
+  display: flex; /* Use flexbox for positioning */
+  justify-content: center; /* Center the images horizontally */
+}
+
+.social-links a {
+  margin: 0 10px; /* Add space between images */
+}
+
+.social-links img {
+  width: 100px; /* Set a fixed width for the images */
+  height: auto; /* Maintain aspect ratio */
+}
   
   /* Footer */
   footer {

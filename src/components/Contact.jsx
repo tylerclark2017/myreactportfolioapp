@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import githublogo from '../images/githublogo.png';
+import linkedinlogo from '../images/linkedinlogo.png';
 
 const Contact = () => {
   // State for form fields
@@ -62,6 +64,14 @@ const Contact = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+      <div className="social-links">
+        <a href="https://www.linkedin.com/in/tyler-clark2017/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinlogo} alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/tylerclark2017" target="_blank" rel="noopener noreferrer">
+          <img src={githublogo} alt="GitHub" />
+        </a>
+      </div>
     </section>
   );
 };
