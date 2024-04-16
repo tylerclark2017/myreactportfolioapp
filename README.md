@@ -9,4 +9,4 @@ I utilized the following resources to complete this project: the Xpert Learning 
 ## Links
 The link to the GitHub portfolio for this project is here: https://github.com/tylerclark2017/myreactportfolioapp
 
-The link to the deployed Netlify application is here: 
+The link to the deployed Netlify application is here: https://main--sprightly-rugelach-158054.netlify.app/
