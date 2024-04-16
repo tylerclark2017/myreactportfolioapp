@@ -5,6 +5,7 @@ import weatherDashboard from '../images/weatherdashboard.png';
 import readmeGenerator from '../images/readmegenerator.png';
 import socialNetworkAPI from '../images/socialnetworkapi.png';
 import ecommercebackend from '../images/ecommercebackend.png';
+import CRUDit from '../images/CRUDit.png';
 
 // Creating the Portfolio component
 
@@ -31,7 +32,7 @@ const Portfolio = () => {
         },
         {
             title: "CRUDit Group Project",
-            imageUrl: "https://github.com/yaserhdev/crudit/blob/main/public/images/crudit-screenshot.png?raw=true",
+            imageUrl: CRUDit,
             deployedUrl: "https://infinite-brushlands-89514-07257eec72fc.herokuapp.com/",
             githubUrl: "https://github.com/yaserhdev/crudit"
         },

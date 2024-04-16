@@ -12,16 +12,21 @@
   }
   
   /* Navigation */
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Aligns navigation items to the center */
+}
+
+nav ul li {
+  margin-right: 20px; /* Adds spacing between navigation items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Removes margin from the last navigation item */
+}
   
   nav ul li button {
     background: none;
@@ -186,3 +191,37 @@
     height: auto; /* Maintain the image's aspect ratio */
     max-height: 500px; /* Set a maximum height to fit within the iPad Air screen */
   }
+
+  /* Default styles for images */
+  .projects {
+    display: flex; /* Ensures projects are displayed in a row */
+    flex-wrap: wrap; /* Allows projects to wrap to the next row if needed */
+    justify-content: space-between; /* Distributes space evenly between projects */
+    padding: 20px; /* Adds padding around the projects */
+}
+
+.project {
+    width: calc(33.33% - 20px); /* Ensures each project occupies one-third of the width with space between */
+    margin-bottom: 20px; /* Adds space between each project */
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    height: auto; /* Allows the image's aspect ratio to be maintained */
+    object-fit: cover;
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) {
+    .project {
+        width: calc(50% - 20px); /* Displays two projects per row on tablets with space between */
+    }
+}
+
+/* Media query for laptops/desktops */
+@media (min-width: 1024px) {
+    .project {
+        width: calc(33.33% - 20px); /* Displays three projects per row on laptops/desktops with space between */
+    }
+}
