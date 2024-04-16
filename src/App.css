@@ -48,7 +48,7 @@ nav ul li:last-child {
   /* Section Headings */
   section h2 {
     color: var(--primary-color);
-    margin-top: 40px;
+    margin: auto;
   }
   
   /* Project */

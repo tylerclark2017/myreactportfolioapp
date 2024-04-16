@@ -65,10 +65,10 @@ const Contact = () => {
         <button type="submit">Submit</button>
       </form>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/tyler-clark2017/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/tyler-clark2017/" target="_blank" rel=" noreferrer">
           <img src={linkedinlogo} alt="LinkedIn" />
         </a>
-        <a href="https://github.com/tylerclark2017" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/tylerclark2017" target="_blank" rel=" noreferrer">
           <img src={githublogo} alt="GitHub" />
         </a>
       </div>
